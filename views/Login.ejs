@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div>
+    <form action='/api/login' method='post'>
+
+      <h1>Formulaire de connexion</h1>
+
+      <div className="group">
+        <label htlmFor="email">E-mail </label><br>
+        <input type="text" name="email" id="email" placeholder='Entre votre e-mail' className='form-control' />
+      </div><br>
+
+      <div className="group">
+        <label htlmFor="motPasse">Mot de passe </label><br>
+        <input type="password" name="motPasse" id="motPasse" placeholder='Entre votre mot de passe' className='form-control' />
+      </div><br>
+
+      <div className="group">
+        <button>Connexion</button>
+      </div><br>
+
+      <div className='group'>
+        <a href="passwordLost">Mot de passe oublié ?</a>
+      </div><br>
+
+      <div className='group'>
+        <button><a href="login">Retour</a></button>
+      </div>
+
+    </form>
+  </div>
+
+</body>
+
+</html>
